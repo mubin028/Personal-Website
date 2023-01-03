@@ -34,7 +34,15 @@ import bolt from '../assets/bolt.png';
 import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
-
+import paris from '../assets/paris.jpg';
+import portugal from '../assets/portugal.jpg';
+import amsterdam from '../assets/amsterdam.jpg';
+import belgium from '../assets/Belgium.jpg';
+import swiss from '../assets/swiss.jpg';
+import usa from '../assets/usa.jpg';
+import germany from '../assets/germany.jpg';
+import pakistan from '../assets/pakistan.jpg';
+import qatar from '../assets/qatar.webp';
 export default {
   email,
   mobile,
@@ -69,4 +77,13 @@ export default {
   nb,
   skype,
   spotify,
+  paris,
+  portugal,
+  amsterdam,
+  belgium,
+  swiss,
+  usa,
+  germany,
+  pakistan,
+  qatar,
 };

@@ -2,14 +2,13 @@ import React from 'react';
 import './About.scss';
 import {motion} from "framer-motion";
 import {images} from '../../constants';
-
-
   const abouts=[
     {title: "Staff Accountant", description: "Conducted Financial Audits in the Financial Institutions and Real Estate group at KPMG specifically handling Cash and Expense accounts.",imgUrl:images.about01},
     {title: "Cloud Consultant", description: 
     "Worked through an entire transformation project from ideation to research to presentation of the case in front of global Director level executives.",imgUrl:images.about02},
     {title: "Data Analysis and Marketing Co-op", description: "Cleaned and updated entries in the Artemis database of over 20,000 records to improve searchability and accuracy of data.",imgUrl:images.about03},
   ];
+
 
   const About = () => {
   return (
@@ -28,11 +27,13 @@ import {images} from '../../constants';
         Where i've worked
       </h1>
       </motion.div>
+
+      <motion.div whileInView={{x:[100,0], opacity: [0,1]}} transition ={{duration: 0.5}}>
       <div className='app__profiles'>
         {abouts.map((about, index)=> (
           <motion.div
           initial={{opacity:0}}
-          whileInView={{opacity: 1}}
+          whileInView={{x:[100,0],opacity: 1}}
           whileHover={{scale:1.1}}
           transition={{duration:0.5, type:'tween'}}
           className='app__profile-item'
@@ -45,6 +46,7 @@ import {images} from '../../constants';
           </motion.div>
         ))}
       </div>
+      </motion.div>
     </>
   )
 }

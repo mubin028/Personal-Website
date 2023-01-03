@@ -21,7 +21,8 @@
 }
 body{
   background-image: url('assets/bgIMG.webp');
-  background-size: auto;
+  background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    
 }
