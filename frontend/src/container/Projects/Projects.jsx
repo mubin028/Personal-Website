@@ -59,13 +59,14 @@ using GUI elements along with action listeners.</li>
       <span className="projects-name">Personal Website</span>
       <span className = "projects-awards">You're here right now! 
       </span>
-      <span className="projects-tech">React, HTML/CSS, Javascript, <br></br>Framer-Motion</span>
+      <span className="projects-tech">React, HTML/CSS, Javascript, <br></br>Framer-Motion, bootsrap</span>
       </div>
 
 
       <ul className="projects-desc">
-      <li> Built a personal website using react, html, and css.</li>
+      <li> Built personal website showcasing my life and experiences</li>
       <li> Built components and implemented framer-motion for animations</li>
+      <li> implemented bootstrap card elements</li>
        </ul>
       <a type='button' className = 'project-link' data-button="true" href='https://github.com/mubin028/ThatsCrazy' target='_blank' rel="noreferrer">View Code</a>
       </motion.div>

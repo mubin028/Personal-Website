@@ -13,7 +13,7 @@ import {images} from '../../constants';
   const About = () => {
   return (
     <>
-    <motion.div whileInView={{x:[100,0], opacity: [0,1]}}
+    <motion.div  id = "About" whileInView={{x:[100,0], opacity: [0,1]}}
       transition ={{duration: 0.5}}
       >
       <h2 className='head-text'>
