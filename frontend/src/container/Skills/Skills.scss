@@ -1,0 +1,60 @@
+
+.app__projects{
+    padding-top: 8rem;
+    padding-right: 5rem;
+}
+.code-block {
+    background-color: #000080;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Consolas', monospace;
+    white-space: pre-wrap;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 6rem;
+    max-width: 650px;
+    min-width: 500px;
+    
+    
+  }
+  
+  .code-block::before {
+    content: "PS C:\\>";
+    color: #339933;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .code-block .input {
+    color: #FFFFFF;
+  }
+  
+  .code-block .output {
+    color: #00FFFF;
+    font-size: 1rem;
+
+  }
+  
+  .code-block .error {
+    color: #FF0000;
+  }
+  .skills-title{
+      padding: 1rem;
+      display: flex;
+      margin: 2rem;
+      background-color: #f5f5f5;
+      border-radius: 0.5rem;
+      font-family: 'ubuntu mono';
+      font-size: 3rem;
+      color: rgb(41, 163, 16);
+      margin-left: 5rem;
+      //move the text to the the center of screen
+        justify-content: center;
+      
+  }

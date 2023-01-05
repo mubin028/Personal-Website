@@ -38,14 +38,10 @@ img{
     margin-bottom: 1.5rem;
     margin-right: 1.5rem;
     margin-top: 1rem;
+    background-color: white;
     border: 0.2rem solid #fff;
-    box-shadow: 0 0 .2rem #fff,
-                0 0 .2rem #fff,
-                0 0 2rem #bc13fe,
-                0 0 0.8rem #bc13fe,
-                0 0 2.8rem #bc13fe,
-                inset 0 0 1.3rem #bc13fe;
-                
+    box-shadow: 0 0 10px #000000;
+
 }
 .travel-header{
     color: #fff;
@@ -58,7 +54,7 @@ img{
 
     text-shadow:
     0 0 7px rgb(211, 206, 206),
-    0 0 10px #fff,
+    0 0 10px rgb(0, 0, 0),
     0 0 21px #fff,
     0 0 42px #bc13fe,
     0 0 82px #bc13fe,
@@ -70,9 +66,9 @@ img{
 
 }
 .card-title{
-    color: white;
+    color:black;
     font-size: 1.5rem;
-    font-family: "ubuntu mono";
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     width: 100%;
     font-size: 26px;
